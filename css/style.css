@@ -58,6 +58,16 @@ ul,p{
   cursor: pointer;
 }
 
+.card{
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.card:hover{
+  scale: 1.1;
+}
 .card-body{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -101,7 +111,17 @@ ul,p{
 .client{
   width: 10%;
 }
-
+.service__box{
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.service__box:hover{
+  background-color: #777777;
+  color: #F8F8F8;
+}
 .service__icon{
   background-color: rgba(209, 227, 239, 0.525);
 }
@@ -121,7 +141,17 @@ ul,p{
 .portfolio__projects .row{
   column-span: all;
 }
+.portfolio__projects img{
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
 
+.portfolio__projects img:hover{
+  scale: 1.1;
+}
 
 .pricing__item{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
@@ -129,18 +159,38 @@ ul,p{
 .pricing__item__head,
 .pricing__item__footer{
   background-color: #F8F8F8;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
 }
 
 .pricing__item__body{
   color: #C0BABA;
 }
 
+.pricing__item:hover .pricing__item__head,
+.pricing__item:hover .pricing__item__footer
+{
+  background-color: #272626 !important;
+  color: #fff !important;
+}
 
 .questions button:hover{
   color: #0d6efd;
 }
 .contact__box{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+.contact__box:hover{
+  scale: 1.07;
 }
 .contact__box .circle{
   width: 3.5rem;
@@ -159,6 +209,7 @@ ul,p{
 .footer__link:hover{
   color: #0d6efd;
 }
+
 .footer p{
  color: #777777;
 }
